@@ -1,0 +1,66 @@
+.bg {
+  background-image: url(../assets/bg.png);
+}
+.navbar {
+  display: flex;
+  width: 1440px;
+  height: 102px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 1.16px 0em 1.16px 0em;
+  /* border: 2px solid black; */
+  margin: auto;
+}
+.first-header {
+  color: rgb(17, 17, 17);
+  font-family: Quicksand;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+ul {
+  display: flex;
+  gap: 30px;
+}
+ul > li {
+  list-style: none;
+}
+li {
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.list-home {
+  color: Orange;
+  font-weight: 700;
+  margin-left: 11em;
+}
+.list-about {
+  color: #01acfd;
+}
+.list-facilities {
+  color: #05d4df;
+}
+.list-admission {
+  color: #5d58ef;
+  margin-right: 11em;
+}
+.contact-button {
+  border-radius: 12px;
+  background: rgb(254, 163, 1);
+  width: 197px;
+  height: 50px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
