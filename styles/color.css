@@ -14,7 +14,7 @@
   gap: 10px;
   padding: 1.16px 0em 1.16px 0em;
   /* border: 2px solid black; */
-  margin: auto;
+  margin: 0px auto;
 }
 .first-header {
   color: rgb(17, 17, 17);
@@ -72,14 +72,20 @@ li {
   display: none;
 }
 .banner {
+  width: 1228.61px;
+  height: 575px;
   display: flex;
-  text-align: center;
-  margin: auto;
-  gap: 24px;
-  width:1158px;
-  height:575px;
   flex-direction: row;
-
+  justify-content: space-between;
+  align-items: center;
+  gap: 85px;
+  margin-left: 152px;
+  /* border: 2px solid black; */
+}
+.banner-text {
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
 }
 .banner-heading-text {
   font-family: Quicksand;
@@ -89,14 +95,50 @@ li {
   letter-spacing: 0%;
   text-align: left;
   position: static;
-width: 640px;
-height: 183px;
+  width: 530px;
+  height: 183px;
+}
+.banner-paragraph-text {
+  color: rgb(17, 17, 17);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 640px;
+  height: 50px;
+  flex: none;
+}
+/* applying color to banner heading */
+.first-span {
+  color: #fea301;
+}
+.second-span {
+  color: #01acfd;
+}
+/* applying style to banner button */
+.banner-button {
+  border-radius: 12px;
+  background: rgb(17, 17, 17);
+  width: 197px;
+  height: 50px;
+  gap: 10px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
 }
 /* Media query for mobile device */
 @media screen and (max-width: 576px) {
   .hide {
     display: none;
   }
+  /* query for navbar start here */
   .navbar {
     margin-left: 0px;
     width: 100%;
@@ -121,5 +163,42 @@ height: 183px;
     width: 32px;
     height: 32px;
     margin-right: 10px;
+  }
+  /* query for banner start here */
+  .banner {
+    flex-direction: column-reverse;
+    margin-top:500px;
+    padding-top: 200px;
+    margin-top: 200px;
+    width: 400px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 2px solid black;
+    gap:20px;
+  }
+  .banner-heading-text {
+    font-size: 32px;
+    text-align: center;
+    width: 300px;
+  }
+  .banner-image{
+    width:420px;
+    height:350px;
+    border: 2px solid brown;
+    margin: 0px;
+  }
+  .banner-image-boy {
+    padding: 0px;
+    margin-left: 2.5rem;
+    margin-right: 40px;
+  }
+  .banner-button{
+    width: 83px;
+    height: 30px;
+    margin: 0px;
+  }
+  .banner-paragraph-text{
+    width: 300px;
+   height: 40px;
   }
 }
