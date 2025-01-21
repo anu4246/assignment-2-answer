@@ -2,6 +2,9 @@
   margin: 0%;
   padding: 0%;
 }
+section {
+  margin-bottom: 60px;
+}
 .bg {
   background-image: url(../assets/bg.png);
 }
@@ -118,7 +121,7 @@ li {
   color: #01acfd;
 }
 /* applying style to banner button */
-.banner-button {
+.banner-button,.last-story-button {
   border-radius: 12px;
   background: rgb(17, 17, 17);
   width: 197px;
@@ -133,6 +136,208 @@ li {
   letter-spacing: 0%;
   text-align: center;
 }
+.cardbox-image {
+  width: 150px;
+  height: 150px;
+  margin-left: 100px;
+  margin-top: 55px;
+  margin-bottom: 15px;
+}
+.section-header {
+  color: rgb(0, 0, 0);
+  font-family: Quicksand;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 57.5px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* applying style to cardboxes */
+.curriculum-cardbox {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+.cardbox-1 {
+  box-sizing: border-box;
+  border: 0.94px solid rgb(222, 245, 255);
+  border-radius: 18.86px;
+
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+      180deg,
+      rgb(222, 245, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+  position: relative;
+  width: 367px;
+  height: 460px;
+  align-items: center;
+  box-shadow: 0 0 28.3 rgba(0, 0, 0, 0.05);
+}
+.cardbox-2 {
+  box-sizing: border-box;
+  border: 0.94px solid rgb(255, 244, 220);
+  border-radius: 18.86px;
+
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+      180deg,
+      rgb(255, 244, 220),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+  position: relative;
+  width: 367px;
+  height: 460px;
+}
+.cardbox-3 {
+  box-sizing: border-box;
+  border: 0.94px solid rgb(242, 232, 255);
+  border-radius: 18.86px;
+
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+      180deg,
+      rgb(238, 225, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+  position: relative;
+  width: 367px;
+  height: 460px;
+  box-sizing: border-box;
+  border: 0.94px solid rgb(242, 232, 255);
+  border-radius: 18.86px;
+}
+
+.card-box-head {
+  color: rgb(32, 32, 32);
+  font-family: Quicksand;
+  font-size: 24.52px;
+  font-weight: 700;
+  line-height: 30.65px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.cardbox-para {
+  color: rgb(128, 128, 128);
+  font-family: Raleway;
+  font-size: 15.09px;
+  font-weight: 500;
+  line-height: 28.3px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.curriculum-button-1,
+.curriculum-button-2,
+.curriculum-button-3 {
+  color: rgb(100, 200, 255);
+  font-family: Quicksand;
+  font-size: 15.09px;
+  font-weight: 700;
+  line-height: 28.3px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: none;
+  background-color: white;
+  align-items: center;
+  width: 79.65px;
+  height: 18.86px;
+  margin-left: 140px;
+  margin-top: 15px;
+}
+.curriculum-button-2 {
+  color: rgb(240, 170, 0);
+}
+.curriculum-button-3 {
+  color: rgb(135, 0, 255);
+}
+/* designing story boxes */
+.stories-box-1 {
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  width: 540.27px;
+  height: 630px;
+}
+.stories-box-2,
+.stories-box-3,
+.stories-box-4,
+.stories-box-5 {
+  width: 290.69px;
+  height: 301.61px;
+  border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+.story-image-2,
+.story-image-3,
+.story-image-3,
+.story-image-4,
+.story-image-5 {
+  width: 100%;
+}
+.story-image-1,
+.story-image-2,
+.story-image-3,
+.story-image-3,
+.story-image-4,
+.story-image-5 {
+  border-radius: 16px 16px 0px 0px;
+  background: url(), rgb(217, 217, 217);
+}
+.stories-boxes {
+    margin-left:170px;
+  display: flex;
+  gap:40px;
+}
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.stories {
+  background: url(image),
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+  align-items: center;
+}
+.story-button{
+    margin-top: -30px;
+    margin-left: 38px;
+}
+.story-button-1{
+  border-radius: 47.93px;
+  position: relative;
+  background: rgb(60, 216, 232);
+  width: 174.51px;
+  height: 47.93px;
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 15.34px;
+  font-weight: 500;
+  line-height: 28.76px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  border: none;
+}
+.last-button{
+    margin-top: 80px;
+   margin-left: 610px;
+   margin-bottom: 0%;
+}
+
+/* designing footer */
+footer{
+    background-color: rgb(1, 172, 253);
+}
+
 /* Media query for mobile device */
 @media screen and (max-width: 576px) {
   .hide {
@@ -172,7 +377,6 @@ li {
     margin-top: 200px;
     padding-top: 0px;
     margin-top: 88px;
-    position: absolute;
     width: 95%;
     height: 90%;
     margin-left: 5px;
@@ -190,9 +394,9 @@ li {
   }
   .banner-image {
     /* border: 2px solid brown; */
-    
+    margin-left: 30px;
   }
-  .banner-image-boy{
+  .banner-image-boy {
     width: 95%;
     height: 95%;
     margin: auto;
@@ -222,7 +426,45 @@ li {
     margin-top: 16px;
     justify-content: center;
   }
-  body{
+  body {
     overflow-x: hidden;
+  }
+
+  .section-header {
+    font-size: 26px;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  .curriculum-cardbox {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .curriculum-button-1,
+  .curriculum-button-2,
+  .curriculum-button-3 {
+    margin-left: 0px;
+  }
+  .card-box-head {
+    font-size: 16.6px;
+    line-height: 20.75px;
+    letter-spacing: 0%;
+  }
+  .cardbox-para {
+    font-size: 10.22px;
+    font-weight: 500;
+    line-height: 19.16px;
+    width: 193.81px;
+    height: 50.45px;
+    text-align: center;
+    margin-left: 85px;
+  }
+  .stories-box-2,
+  .stories-box-3,
+  .stories-box-4,
+  .stories-box-5 {
+    width: 173.27px;
+    height: 105.39px;
   }
 }
