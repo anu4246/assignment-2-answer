@@ -465,7 +465,7 @@ footer {
   text-align: left;
   margin-bottom: 30px;
 }
-.footer-container{
+.footer-container {
   display: flex;
   justify-content: space-around;
 }
@@ -661,25 +661,29 @@ footer {
 
   /* Media query for footer start here */
   footer {
-    padding: 66px 26px;
+    padding: 66px 20px;
   }
   .footer-heading {
     max-width: 172px;
     max-height: 67px;
+    max-width: 357px;
   }
   .footer-para {
-    max-width: 399.02px;
-    max-height: 100px;
-    color: rgb(255, 255, 255);
-    font-family: Quicksand;
-    font-size: 20px;
     font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0%;
-    text-align: left;
+    line-height: 20px;
+    max-width: 357px;
+    max-height: 80px;
   }
-  .footer-container{
+  .footer-container {
     flex-direction: column;
-    gap:45px;
+    gap: 45px;
+  }
+  .last-list {
+    max-width: 300px;
+    
+  }
+  .list-heading {
+    max-width: 300px;
+    
   }
 }
