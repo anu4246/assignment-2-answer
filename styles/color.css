@@ -478,6 +478,9 @@ footer {
   justify-content: space-around;
 }
 
+.arrow:hover {
+  opacity: 1;
+}
 /* Media query for mobile device */
 @media screen and (max-width: 576px) {
   .hide {
@@ -603,9 +606,6 @@ footer {
     max-height: 50.45px;
     text-align: center;
     margin-left: 85px;
-  }
-  .arrow:hover {
-    background-color: black;
   }
   .stories-box-2,
   .stories-box-3,
