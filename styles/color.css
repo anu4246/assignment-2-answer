@@ -121,7 +121,8 @@ li {
   color: #01acfd;
 }
 /* applying style to banner button */
-.banner-button,.last-story-button {
+.banner-button,
+.last-story-button {
   border-radius: 12px;
   background: rgb(17, 17, 17);
   width: 197px;
@@ -274,7 +275,7 @@ li {
   height: 301.61px;
   border-radius: 16px;
 
-background: rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
 }
 .story-image-2,
 .story-image-3,
@@ -293,9 +294,9 @@ background: rgb(255, 255, 255);
   background: url(), rgb(217, 217, 217);
 }
 .stories-boxes {
-    margin-left:170px;
+  margin-left: 170px;
   display: flex;
-  gap:40px;
+  gap: 40px;
 }
 .grid-layout {
   display: grid;
@@ -306,12 +307,13 @@ background: rgb(255, 255, 255);
   background: url(image),
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
   align-items: center;
+  margin-bottom: 0%;
 }
-.story-button{
-    margin-top: -30px;
-    margin-left: 38px;
+.story-button {
+  margin-top: -30px;
+  margin-left: 38px;
 }
-.story-button-1{
+.story-button-1 {
   border-radius: 47.93px;
   position: relative;
   background: rgb(60, 216, 232);
@@ -327,15 +329,86 @@ background: rgb(255, 255, 255);
   text-transform: capitalize;
   border: none;
 }
-.last-button{
-    margin-top: 80px;
-   margin-left: 610px;
-   margin-bottom: 0%;
+.story-button-2,
+.story-button-3,
+.story-button-4,
+.story-button-5 {
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 15.34px;
+  font-weight: 500;
+  line-height: 28.76px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  border-radius: 47.93px;
+  background: rgb(149, 178, 38);
+  width: 174.51px;
+  height: 38.35px;
+  border: none;
+  margin: 7px;
+}
+.story-button-3 {
+  background: orange;
+}
+.story-button-4 {
+  background: rgb(93, 88, 240);
+}
+.last-button {
+  margin-top: 80px;
+  margin-left: 610px;
+  margin-bottom: 0%;
+}
+.last-story-button{
+  margin-bottom: 60px;
+}
+.main-box-header {
+  color: rgb(0, 0, 0);
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38.35px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 402.49px;
+  height: 69.98px;
+  margin: 40px 38px 32px 38px;
+}
+.para-1 {
+  color: rgb(102, 102, 102);
+  font-family: Raleway;
+  font-size: 15.34px;
+  font-weight: 500;
+  line-height: 28.76px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 433.06px;
+  height: 75.74px;
+  margin-left: 38px;
+}
+.para {
+  color: rgb(0, 0, 0);
+  font-family: Quicksand;
+  font-size: 15.34px;
+  font-weight: 700;
+  line-height: 28.76px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 198.04px;
+  height: 47.93px;
+  margin-left: 38px;
+  margin-top: 10px;
 }
 
 /* designing footer */
-footer{
-    background-color: rgb(1, 172, 253);
+footer {
+  background-color: rgb(1, 172, 253);
+  padding: 100px;
+}
+.footer-logo-part{
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 /* Media query for mobile device */
@@ -440,6 +513,7 @@ footer{
   .curriculum-cardbox {
     flex-direction: column;
     margin-left: 20px;
+    width: 95%;
   }
   .curriculum-button-1,
   .curriculum-button-2,
@@ -466,5 +540,65 @@ footer{
   .stories-box-5 {
     width: 173.27px;
     height: 105.39px;
+  }
+
+  .stories-box-2,
+  .stories-box-3,
+  .stories-box-4,
+  .stories-box-5 {
+    width: 173.09px;
+    height: 179.59px;
+  }
+  .grid-layout {
+    gap: 10px;
+    margin: auto;
+    width: 90%;
+  }
+  .stories {
+    margin-left: 0px;
+    width: 390px;
+    margin-bottom: 0%;
+  }
+  .last-button {
+    margin-top: 80px;
+    align-items: center;
+    margin-left: 32%;
+    }
+  .last-story-button {
+    border-radius: 12px;
+    width: 134px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 2px;
+    margin-bottom: 40px;
+  }
+  .stories-boxes {
+    margin-left: 0px;
+    margin-right: 20px;
+    align-items: center;
+    width: 390px;
+  }
+  .para {
+    font-size: 9.13px;
+    font-weight: 700;
+    line-height: 17.12px;
+    letter-spacing: 0%;
+    width: 107.92px;
+    height: 28.54px;
+    text-align: left;
+    margin-top: 3px;
+  }
+  .story-button-2,
+  .story-button-3,
+  .story-button-4,
+  .story-button-5 {
+    width: 103.91px;
+    height: 22.83px;
+    font-size: 9.13px;
+    font-weight: 500;
+    line-height: 17.12px;
+    margin-top: 12px;
+    margin-left: -10px;
   }
 }
