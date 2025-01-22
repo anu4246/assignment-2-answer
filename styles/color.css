@@ -517,10 +517,10 @@ footer {
   /* query for banner start here */
   .banner {
     flex-direction: column-reverse;
-    margin-top: 200px;
+    margin-top: 180px;
     padding-top: 0px;
     margin-top: 88px;
-    width: 95%;
+    width: 100%;
     height: 90%;
     margin-left: 5px;
     margin-right: 5px;
@@ -537,12 +537,13 @@ footer {
   }
   .banner-image {
     /* border: 2px solid brown; */
-    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .banner-image-boy {
-    max-width: 95%;
-    max-height: 95%;
-    margin: auto;
+    max-width: 90%;
+    max-height: 90%;
     justify-content: center;
   }
   .banner-button {
@@ -592,7 +593,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left:10px ;
+    padding-left: 10px;
     padding-right: 10px;
   }
   .curriculum-button-1,
@@ -642,6 +643,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* border: 2px solid seagreen; */
   }
   .last-story-button {
     border-radius: 12px;
